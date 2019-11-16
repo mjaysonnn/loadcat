@@ -18,6 +18,7 @@ type ServerSettings struct {
 	Address      string
 	Weight       int
 	Availability Availability
+	Vmtype Vmtype
 }
 
 func ListServersByBalancer(bal *Balancer) ([]Server, error) {

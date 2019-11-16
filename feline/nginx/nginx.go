@@ -12,9 +12,9 @@ import (
 
 	"github.com/coreos/go-systemd/dbus"
 
-	"github.com/hjr265/loadcat/cfg"
-	"github.com/hjr265/loadcat/data"
-	"github.com/hjr265/loadcat/feline"
+	"github.com/mrata/loadcat/cfg"
+	"github.com/mrata/loadcat/data"
+	"github.com/mrata/loadcat/feline"
 )
 
 var TplNginxConf = template.Must(template.New("").Parse(`
@@ -43,7 +43,9 @@ server {
 		ssl_certificate      {{.Dir}}/server.crt;
 		ssl_certificate_key  {{.Dir}}/server.key;
 	{{end}}
-
+	location /basic_status {
+    stub_status;
+  }
 	location / {
 		proxy_set_header  Host $host;
 		proxy_set_header  X-Real-IP $remote_addr;

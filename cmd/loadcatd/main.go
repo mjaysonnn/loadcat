@@ -10,12 +10,12 @@ import (
 	"os/signal"
 	"path/filepath"
 
-	"github.com/hjr265/loadcat/api"
-	"github.com/hjr265/loadcat/cfg"
-	"github.com/hjr265/loadcat/data"
-	"github.com/hjr265/loadcat/feline"
-	_ "github.com/hjr265/loadcat/feline/nginx"
-	"github.com/hjr265/loadcat/ui"
+	"github.com/mrata/loadcat/api"
+	"github.com/mrata/loadcat/cfg"
+	"github.com/mrata/loadcat/data"
+	"github.com/mrata/loadcat/feline"
+	_ "github.com/mrata/loadcat/feline/nginx"
+	"github.com/mrata/loadcat/ui"
 )
 
 func main() {

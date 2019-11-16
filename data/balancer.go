@@ -22,6 +22,7 @@ type BalancerSettings struct {
 	Port       int
 	Protocol   Protocol
 	Algorithm  Algorithm
+	Vmtype		 Vmtype
 	SSLOptions SSLOptions
 }
 
