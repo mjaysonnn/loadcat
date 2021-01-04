@@ -8,6 +8,8 @@ var Availabilities = []Availability{
 	"unavailable",
 	"available",
 	"backup",
+	"down",
+	
 }
 
 func (a Availability) Label() string {
@@ -18,4 +20,5 @@ var AvailabilityLabels = map[Availability]string{
 	"unavailable": "Unavailable",
 	"available":   "Available",
 	"backup":      "Backup",
+	"down":      "Down",
 }
