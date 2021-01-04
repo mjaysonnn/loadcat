@@ -10,8 +10,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/gorilla/schema"
 
-	"github.com/mrata/loadcat/data"
-	"github.com/mrata/loadcat/feline"
+	"github.com/mjaysonnn/loadcat/data"
+	"github.com/mjaysonnn/loadcat/feline"
 )
 
 func ServeServerNewForm(w http.ResponseWriter, r *http.Request) {

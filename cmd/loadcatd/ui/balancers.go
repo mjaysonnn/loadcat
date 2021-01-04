@@ -9,8 +9,8 @@ import (
 	"github.com/gorilla/schema"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/mrata/loadcat/data"
-	"github.com/mrata/loadcat/feline"
+	"github.com/mjaysonnn/loadcat/data"
+	"github.com/mjaysonnn/loadcat/feline"
 )
 
 func ServeBalancerList(w http.ResponseWriter, r *http.Request) {

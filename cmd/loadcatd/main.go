@@ -10,12 +10,12 @@ import (
 	"os/signal"
 	"path/filepath"
 
-	"github.com/mrata/loadcat/api"
-	"github.com/mrata/loadcat/cfg"
-	"github.com/mrata/loadcat/data"
-	"github.com/mrata/loadcat/feline"
-	_ "github.com/mrata/loadcat/feline/nginx"
-	"github.com/mrata/loadcat/ui"
+	"github.com/mjaysonnn/loadcat/api"
+	"github.com/mjaysonnn/loadcat/cfg"
+	"github.com/mjaysonnn/loadcat/data"
+	"github.com/mjaysonnn/loadcat/feline"
+	_ "github.com/mjaysonnn/loadcat/feline/nginx"
+	"github.com/mjaysonnn/loadcat/ui"
 )
 
 func main() {

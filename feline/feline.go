@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/mrata/loadcat/cfg"
-	"github.com/mrata/loadcat/data"
+	"github.com/mjaysonnn/loadcat/cfg"
+	"github.com/mjaysonnn/loadcat/data"
 )
 
 type Feline struct {
