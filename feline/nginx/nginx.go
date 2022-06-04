@@ -10,7 +10,8 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/coreos/go-systemd/dbus"
+// 	"github.com/coreos/go-systemd/dbus"
+	"github.com/coreos/go-systemd"
 
 	"github.com/mjaysonnn/loadcat/cfg"
 	"github.com/mjaysonnn/loadcat/data"
